@@ -44,7 +44,7 @@ TR064 TR064connection(fbPORT, fbIP, fbuser, fbpass);
 
 void setup() {
   Serial.begin(115200); // Serielle Schnittstelle öffnen
-  Serial.println("Starte ESP8266 Keller-Arbeitszimmer!");
+  Serial.println("Starte ESP8266 FritzBoxSpeedMeter!");
 
   // WLAN Verbindung
   if (!wlan_connect()) {
